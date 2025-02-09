@@ -1,0 +1,12 @@
+Design a class Student having the following attributes :-
+
+1. Name
+2. Age
+3. PSP
+4. AvgBatchPSP
+5. BatchName
+
+There are 100 students belonging to same batch then,
+
+AvgBatchPSP and BatchName will be same for the all Students.
+The rest will be different.
