@@ -1,4 +1,4 @@
-package PrototypeDesignPattern;
+package PrototypeDesignPattern.Version1;
 
 public class Student {
 	
