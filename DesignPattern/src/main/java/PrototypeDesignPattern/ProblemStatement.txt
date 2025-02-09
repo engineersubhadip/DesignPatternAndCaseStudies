@@ -1,0 +1,2 @@
+Given an object of a class.
+Create an object of the class.
