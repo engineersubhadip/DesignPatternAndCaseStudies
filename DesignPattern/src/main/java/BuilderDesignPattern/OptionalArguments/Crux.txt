@@ -1,0 +1,8 @@
+We are building a student class
+
+1. The mandatory parameters are name and age
+2. University Name is Optional.
+
+If the user is not providing Uni Name then still he/she should be able to create student object, provided he/she has provided
+valid inputs for name and age.
+If the user chooses to provide Uni Name then make sure it is valid as well.
