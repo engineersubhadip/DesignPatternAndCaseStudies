@@ -1,0 +1,5 @@
+Builder Design Pattern states that :-
+
+1. If we have a to create a complex object with lots of attributes.
+2. The user will not be able to create an object, until he has provided valid inputs for the data members.
+3. Some data members are mandatory and some are optional. {Optional Point}
