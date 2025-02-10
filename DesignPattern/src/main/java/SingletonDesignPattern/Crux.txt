@@ -1,0 +1,1 @@
+Singleton Design Pattern states that only one object of the Class will be created.
