@@ -34,13 +34,17 @@ public class Student {
 		private int age;
 		private String uniName;
 
-		public Student build() {
+		private void checkStatus() {
 			if (this.name == null || this.name.length() == 0) {
 				throw new RuntimeException("Please enter valid Name");
 			}
 			if (this.age < 0 || this.age > 100) {
 				throw new RuntimeException("Please enter valid Age");
 			}
+		}
+
+		public Student build() {
+			checkStatus();
 			Student newStudent = new Student(this);
 			return newStudent;
 		}

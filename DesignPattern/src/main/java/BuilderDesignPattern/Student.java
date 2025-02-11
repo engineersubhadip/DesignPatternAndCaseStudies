@@ -35,30 +35,31 @@ public class Student {
 		private String univName;
 
 		public Student build() {
-			if (this.name == null || this.name.length() == 0) {
-				throw new RuntimeException("Please enter valid name");
-			}
-			if (this.age < 18 || this.age > 40) {
-				throw new RuntimeException("Please enter valid age");
-			}
-			if (this.univName == null || this.univName.length() == 0) {
-				throw new RuntimeException("Please enter valid University name");
-			}
+
 			Student newStudent = new Student(this);
 			return newStudent;
 		}
 
 		public Builder setName(String name) {
+			if (this.name == null || this.name.length() == 0) {
+				throw new RuntimeException("Please enter valid name");
+			}
 			this.name = name;
 			return this;
 		}
 
 		public Builder setAge(int age) {
+			if (this.age < 18 || this.age > 40) {
+				throw new RuntimeException("Please enter valid age");
+			}
 			this.age = age;
 			return this;
 		}
 
 		public Builder setUnivName(String univName) {
+			if (this.univName == null || this.univName.length() == 0) {
+				throw new RuntimeException("Please enter valid University name");
+			}
 			this.univName = univName;
 			return this;
 		}
