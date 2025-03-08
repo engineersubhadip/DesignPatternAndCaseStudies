@@ -1,0 +1,10 @@
+https://myWebsite:8080/companies?companyName=xyz
+
+https:// -> Protocol
+myWebSite -> HostName
+:8080 -> Port
+/companies -> Path Param
+?companyName=xyz -> Query Param
+
+* Port, Path Param and Query Param are Optional Fields.
+* Rest are mandatory
